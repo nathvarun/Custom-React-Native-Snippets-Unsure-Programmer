@@ -53,5 +53,20 @@
             "console.log(${1:})"
         ],
         "description": "console.log"
+    },
+    "React Native Pan Responder": {
+        "prefix": "imrnp",
+        "body": [
+            "this.panResponder = PanResponder.create({",
+            "\n\tonMoveShouldSetPanResponder: (evt, gestureState) => true,",
+            "\tonPanResponderGrant: (evt, gestureState) =>{",
+            "\n\t},",
+            "\tonPanResponderMove: (evt, gestureState) => {",
+            "\n\t},",
+            "\tonPanResponderRelease: (evt, gestureState) => {",
+            "\n\t},",
+            "\n})"
+        ],
+        "description": "React Native Pan Responder"
     }
 }
