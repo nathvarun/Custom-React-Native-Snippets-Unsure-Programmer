@@ -8,9 +8,10 @@ This repository contains few of the snippets that i use in my react native video
 - Copy the code from this repository into that file. 
 
 ## Snippets 
-```js
+```sh
 imrnc  - Import React Native Component
 imnrcp - Create Panresponder.create
 imrnss - Create React Native Style Sheet
+imrnfc - Create React Native Functional Component
 clog   - console.log("$1")
 ```
