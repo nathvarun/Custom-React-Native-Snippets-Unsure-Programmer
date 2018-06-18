@@ -60,5 +60,25 @@
             "\n})"
         ],
         "description": "React Native Pan Responder"
+    },
+    "React Native Functional Component": {
+        "prefix": "imrnfc",
+        "body": [
+            "import { \n\tView,\n\tText,\n\tStyleSheet\n\t} from \"react-native\";",
+            "\nconst ${1:componentName} = (props) => (",
+            "\t<View style={styles.container}>",
+            "\t\t<Text>${1:componentName}</Text>",
+            "\t</View>",
+            "\t)",
+            "export default ${1:componentName};",
+            "\nconst styles = StyleSheet.create({",
+            "\tcontainer:{",
+            "\tflex:1,",
+            "\talignItems:'center',",
+            "\tjustifyContent:'center'",
+            "\t}",
+            "});"
+        ],
+        "description": "React Native Functional Component"
     }
 }
