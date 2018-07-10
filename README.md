@@ -11,7 +11,7 @@ This repository contains few of the snippets that i use in my react native video
 ```sh
 imrnc  - Import React Native Component
 imrnfc - Import React Native Functional Component
-imnrcp - Create Panresponder.create
+imrnp - Create Panresponder.create
 imrnss - Create React Native Style Sheet
 clog   - console.log("$1")
 ```
