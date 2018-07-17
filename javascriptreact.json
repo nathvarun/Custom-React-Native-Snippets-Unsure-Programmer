@@ -64,6 +64,7 @@
     "React Native Functional Component": {
         "prefix": "imrnfc",
         "body": [
+            "import React from \"react\";",
             "import { \n\tView,\n\tText,\n\tStyleSheet\n} from \"react-native\";",
             "\nconst ${1:componentName} = (props) => (",
             "\t<View style={styles.container}>",
