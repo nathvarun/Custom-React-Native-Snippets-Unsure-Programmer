@@ -81,5 +81,22 @@
             "});"
         ],
         "description": "React Native Functional Component"
+    },
+    "React Native Map Function": {
+        "prefix": "rnmap",
+        "body": [
+            "return ${1:items}.map((item,index)=>{",
+            "\treturn(",
+            "\t\t${2:<View></View>}",
+            ")})"
+        ],
+        "description": "javscript map method"
+    },
+    "Align and Justify Center": {
+        "prefix": "rnajc",
+        "body": [
+            "alignItems:'center',justifyContent:'center'"
+        ],
+        "description": "align/justify items center"
     }
 }

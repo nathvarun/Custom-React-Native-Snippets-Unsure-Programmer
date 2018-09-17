@@ -25,5 +25,7 @@ imrnfc - Import React Native Functional Component
 imrnp - Create Panresponder.create
 imrnss - Create React Native Style Sheet
 clog   - console.log("$1")
+rnmap  - React Native Map Method
+rnajc  - Align/Justify Content Center
 ```
 
