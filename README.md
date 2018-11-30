@@ -34,5 +34,5 @@ rnfcomp  - Create a Functional React Native Component
 
 ## JSX Attribute Snippets
 ```sh
-rnajc - Align/Justify Content center
+rnajc - alignItems:'center',justifyContent:'center'
 ```
