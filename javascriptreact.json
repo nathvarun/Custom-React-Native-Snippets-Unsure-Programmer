@@ -91,5 +91,38 @@
             ")})"
         ],
         "description": "javscript map method"
-    }
+    },
+    "React Native Dimensions": {
+		"prefix": "rndime",
+		"body": [
+			"const {width,height} = Dimensions.get('window')"
+		],
+		"description": "Dimensions RN"
+	},
+	"React Native Component Only":{
+		"prefix":"rncomp",
+		"body":[
+			"\nclass ${1:componentName} extends Component{",
+				"\trender(){",
+				"\t\treturn (",
+				"\t\t\t<View style={{flex:1,alignItems:'center',justifyContent:'center'}}>",
+				"\t\t\t\t<Text>${1:componentName}</Text>",
+				"\t\t\t</View>",
+				"\t\t);",
+				"\t}",
+				"}"
+		],
+		"description":"New React Native Component"
+    },
+    "React Native Functional Component Only":{
+		"prefix":"rnfcomp",
+		"body":[
+			"\nconst ${1:componentName} = (props) => (",
+			"\t<View style={{flex:1,alignItems:'center',justifyContent:'center'}}>",
+			"\t\t<Text>${1:componentName}</Text>",
+			"\t</View>",
+			")"
+		],
+		"description":"New React Native Component"
+	}
 }
